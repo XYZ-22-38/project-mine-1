@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+.first{
+    background: fixed url(https://pic.rutubelist.ru/video/a5/c8/a5c8f05b9863a3a33292b03e06892cf1.jpg)
+     ;
+    background-size: cover;
+    height:40em;
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Sansita Swashed', cursive;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+  .nickName{
+    height: 60px;
+    background-color: blueviolet;
+    text-align: center;
+color: rgb(0, 0, 0);
+font-size: 40px;
+letter-spacing: 1.5px;
+text-decoration-line: underline ;
+
+  }
+  .nameTag{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    height: 50px;
+    background-color: blueviolet;
+
+  }
+  .nameText{
+    color: rgb(0, 0, 0) ;
+    font-size: x-large;
+ }
+ .lastNameText{
+  display: flex;
+  height: 150px ;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+  font-size: xx-large;
+  padding: 20px;
+}
+@font-face{
+  font-family: "Times-New-Roman";
+  src: url("файлСоШрифтами.woff") format("woff");
+  src: url("файлСоШрифтами.woff2") format("woff2");
+ }
+ .LastNameMail{
+  text-align: left;
+  color: dimgray;
+  text-decoration-line: underline;
+ }
+ .lastNameText{
+  display: flex;
+  height: 150px ;
+  /* выравнивание по верртикали */
+  align-items: center; 
+  /* выравнивание по горризонтали */
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  /* flex-wrap: wrap-reverse; */
+  background-color: blueviolet;
+  font-size: xx-large;
+  padding: 20px;
+  width: 100%;
+ }
+  
+
+
